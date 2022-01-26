@@ -1,3 +1,5 @@
+Como Compilar El Kernel Zen En Linux de Cero a Femboy
+
 sudo dnf install patch wget gcc ncurses-devel git git-core flex bison openssl-devel dwarves openssl elfutils-libelf-devel lz4 zstd
 
 sudo dnf groupinstall "Development Tools"
