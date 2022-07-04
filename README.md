@@ -76,6 +76,7 @@ sudo make modules_install install
 ```
 make clean && mrproper
 ```
+* En caso de no entrar directo al nuevo kernel, precionar la tecla "Esc" en el booteo para omitir el plymouth, o entrar mediante "opciones avanzadas" dependiendo del sistema
 
 ### Visita el tutorial para mas detalles
 [![Alt text](https://i.postimg.cc/xTJkYHjN/zen.png)](https://www.youtube.com/watch?v=6ZYu_lNvLUo)
