@@ -24,7 +24,6 @@ Utilizar "apt" "pacman" "dnf" segun sea el caso
 |Arch Linux | No es necesario ya que al momento de instalacion del kernel base, se instalan de manera indirecta|
 
 
-
 ### 3.- Clonar el Kernel Zen Del repositorio oficial con el sigueinte comando
 ```
 git clone --depth 1 https://github.com/zen-kernel/zen-kernel.git 
@@ -77,6 +76,10 @@ sudo make modules_install install
 ```
 make clean && mrproper
 ```
+
+### Visita el tutorial para mas detalles
+[![Alt text](https://i.postimg.cc/xTJkYHjN/zen.png)](https://www.youtube.com/watch?v=6ZYu_lNvLUo)
+
 ###  💙 Agradecimiento y creditos
 Zen Kernel Documentation
 
@@ -88,7 +91,4 @@ https://github.com/callmezatiel/kernelzen/issues
 
 ## Buy me a coffee
 <a href="https://www.paypal.me/zatiel"><img src="https://img.shields.io/badge/don-paypal-blue"></a> <a href="https://www.patreon.com/zatiel"><img src="https://img.shields.io/badge/don-patreon-ff69b4">
-
-### Visita el tutorial para mas detalles
-[![Alt text](https://i.postimg.cc/xTJkYHjN/zen.png)](https://www.youtube.com/watch?v=6ZYu_lNvLUo)
 
