@@ -45,8 +45,7 @@ ls -a
 ```
 ### 6.- Hacer una copia del archivo config
 
-### NOTA
-
+## NOTA
 * El archivo config es diferente para todos pero se necesita seguir la sigueinte estructura de comando
 
 ```
@@ -82,7 +81,7 @@ make clean && mrproper
 ###  💙 Agradecimiento y creditos
 Zen Kernel Documentation
 
-### Autor
+## Autor
 Zatiel ([callmezatiel](https://github.com/callmezatiel))
 
 # Issues will be fixed asap. Pull Request Welcomed
