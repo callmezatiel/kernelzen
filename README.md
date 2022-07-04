@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/callmezatiel"><img src="https://i.postimg.cc/qMmnw0b4/zenk.png" width=160 height=150 alt="Guia Completa"></a>
+  <a href="https://github.com/callmezatiel"><img src="https://i.postimg.cc/qMmnw0b4/zenk.png" width=320 height=300 alt="Guia Completa"></a>
   <br>
   Guia Completa
   <br>
