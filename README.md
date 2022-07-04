@@ -24,7 +24,7 @@ Utilizar "apt" "pacman" "dnf" segun sea el caso
 |Arch Linux | No es necesario ya que al momento de instalacion del kernel base, se instalan de manera indirecta|
 
 
-### 3.- Clonar el Kernel Zen Del repositorio oficial con el sigueinte comando
+### 3.- Clonar el Kernel Zen del repositorio oficial con el sigueinte comando
 ```
 git clone --depth 1 https://github.com/zen-kernel/zen-kernel.git 
 ```
