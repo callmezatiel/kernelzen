@@ -44,8 +44,6 @@ cd /boot
 ls -a
 ```
 ### 6.- Hacer una copia del archivo config
-
-### NOTA
 * El archivo config es diferente para todos pero se necesita seguir la sigueinte estructura de comando
 
 ```
@@ -66,7 +64,8 @@ make menuconfig
 ```
 nproc 
 ```
-### 10.- Comenzar el proceso de compilacion, en mi caso deacuerdo al comando anterior mi valor es 8 pero es a consideracion tuya (vease tutorial)
+### 10.- Comenzar el proceso de compilacion, 
+* En mi caso deacuerdo al comando anterior mi valor es 8 pero es a consideracion tuya (vease tutorial)
 ```
 make -j8
 ```
