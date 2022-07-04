@@ -72,7 +72,7 @@ make -j8
 ```
 sudo make modules_install install
 ```
-## Comando alternativo por si se decea reanudar el proceso de compilacion y da error, reanudar desde el paso 10   
+### Comando alternativo por si se decea reanudar el proceso de compilacion y da error, reanudar desde el paso 10   
 ```
 make clean && mrproper
 ```
