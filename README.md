@@ -14,7 +14,7 @@ sudo dnf install patch wget gcc ncurses-devel git git-core flex bison openssl-de
 ```
 Uyilizar "apt" "pacman" "dnf" segun sea el caso
 
-### 2.- Instalar paquetes de desarrollo dependiendo del sistema ⚠️
+### 2.- Instalar paquetes de desarrollo dependiendo del sistema⚠️
 
 | Distro| Comando a utilizar |
 | ------ | ------ |
