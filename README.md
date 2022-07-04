@@ -90,6 +90,6 @@ https://github.com/callmezatiel/kernelzen/issues
 ## Buy me a coffee
 <a href="https://www.paypal.me/zatiel"><img src="https://img.shields.io/badge/don-paypal-blue"></a> <a href="https://www.patreon.com/zatiel"><img src="https://img.shields.io/badge/don-patreon-ff69b4">
 
-https://youtu.be/6ZYu_lNvLUo
+### Visita el tutorial para mas detalles
+[![Alt text](https://img.youtube.com/vi/configuroweb/0.jpg)](https://www.youtube.com/watch?v=6ZYu_lNvLUo)
 
-[![ZEN.jpg](https://i.postimg.cc/brcjdM07/ZEN.jpg)](https://postimg.cc/YG3PsdsR)
