@@ -8,7 +8,7 @@
 
 ## Como Compilar El Kernel Zen En Linux de Cero
 
-### Paso 1.- Solucionar las dependencias de el sistema
+### 1.- Solucionar las dependencias de el sistema
 ```
 sudo dnf install patch wget gcc ncurses-devel git git-core flex bison openssl-devel dwarves openssl elfutils-libelf-devel lz4 zstd
 ```
