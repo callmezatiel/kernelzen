@@ -6,14 +6,14 @@
   <br>
 </h1>
 
-### Como Compilar El Kernel Zen En Linux de Cero
+## Como Compilar El Kernel Zen En Linux de Cero
 
-##Paso 1.- Solucionar las dependencias de el sistema
+### Paso 1.- Solucionar las dependencias de el sistema
 
 sudo dnf install patch wget gcc ncurses-devel git git-core flex bison openssl-devel dwarves openssl elfutils-libelf-devel lz4 zstd
 
 
-## 2.- Instalar paquetes de desarrollo dependiendo del sistema
+### 2.- Instalar paquetes de desarrollo dependiendo del sistema
 
 Ubuntu / Debian: 
 sudo apt-get install build-essential
@@ -27,40 +27,37 @@ sudo dnf groupinstall "Development Tools"
 Arch Linux
 No es necesario ya que al momento de instalacion del kernel base, se instalan de manera indirecta
 
-## 3.- Clonar el Kernel Zen Del repositorio oficial con el sigueinte comando
+### 3.- Clonar el Kernel Zen Del repositorio oficial con el sigueinte comando
 
 git clone --depth 1 https://github.com/zen-kernel/zen-kernel.git 
 
-## 4.- Crear una carpeta y mover la carpeta descargada a la recien creada 
-
+### 4.- Crear una carpeta y mover la carpeta descargada a la recien creada 
 mkdir kernel
-
 mv zen-kernel/ kernel
 
-## 5.- Cambiar al directorio /boot para verificar la configuracion del kernel anterior y hacer una copia para evitar rellenar casillas
+### 5.- Cambiar al directorio /boot para verificar la configuracion del kernel anterior y hacer una copia para evitar rellenar casillas
 cd /boot
 ls -a
 
-## 6.- Hacer una copia del archivo config
-##NOTA: El archivo config es diferente para todos pero se necesita seguir la sigueinte estructura de comando:
+### 6.- Hacer una copia del archivo config
+###NOTA: El archivo config es diferente para todos pero se necesita seguir la sigueinte estructura de comando:
 cp config-5.7.7-200.fc32.x86_64 /home/YOURNAME/kernel/zen-kernel/.config
 cd /home/YOURNAME/kernel/zen-kernel/
 
-## 7.- Establecer la configuracion en base a la anterior 
+### 7.- Establecer la configuracion en base a la anterior 
 make oldconfig
 
-## 8.- Setear y confirmar los datos seleccionados
+### 8.- Setear y confirmar los datos seleccionados
 make menuconfig
 
-## 9.- utilizar el comando nproc para verificar la cantidad de cores disponibles deacuerdo a tu procesador (todos tenemos un valor diferente
+### 9.- utilizar el comando nproc para verificar la cantidad de cores disponibles deacuerdo a tu procesador (todos tenemos un valor diferente
 nproc 
 
-## 10.- Comenzar el proceso de compilacion, en mi caso deacuerdo al comando anterior mi valor es 8 pero es a consideracion tuya (vease tutorial)
+### 10.- Comenzar el proceso de compilacion, en mi caso deacuerdo al comando anterior mi valor es 8 pero es a consideracion tuya (vease tutorial)
 make -j8
 
-## 11.- Establecer los modulos de arranque y exportar los ajustes finales
+### 11.- Establecer los modulos de arranque y exportar los ajustes finales
 sudo make modules_install install
-
 
 ## Comando alternativo por si se decea reanudar el proceso de compilacion y da error, reanudar desde el paso 10   
 make clean && mrproper
