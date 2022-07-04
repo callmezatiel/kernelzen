@@ -46,7 +46,7 @@ ls -a
 * El archivo config es diferente para todos pero se necesita seguir la sigueinte estructura de comando
 
 ```
-cp config-5.7.7-200.fc32.x86_64 /home/YOURNAME/kernel/zen-kernel/.config
+cp config-5.17-300.fc36.x86_64 /home/YOURNAME/kernel/zen-kernel/.config
 ```
 ```
 cd /home/YOURNAME/kernel/zen-kernel/
@@ -86,9 +86,9 @@ Zen Kernel Documentation
 ### Autor
 Zatiel ([callmezatiel](https://github.com/callmezatiel))
 
-# Issues will be fixed asap. Pull Request Welcomed
+### Issues will be fixed asap. Pull Request Welcomed
 https://github.com/callmezatiel/kernelzen/issues
 
-## Buy me a coffee
+### Buy me a coffee
 <a href="https://www.paypal.me/zatiel"><img src="https://img.shields.io/badge/don-paypal-blue"></a> <a href="https://www.patreon.com/zatiel"><img src="https://img.shields.io/badge/don-patreon-ff69b4">
 
