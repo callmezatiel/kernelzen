@@ -91,5 +91,5 @@ https://github.com/callmezatiel/kernelzen/issues
 <a href="https://www.paypal.me/zatiel"><img src="https://img.shields.io/badge/don-paypal-blue"></a> <a href="https://www.patreon.com/zatiel"><img src="https://img.shields.io/badge/don-patreon-ff69b4">
 
 ### Visita el tutorial para mas detalles
-[![Alt text](https://i.postimg.cc/xTJkYHjN/zen.png)(https://www.youtube.com/watch?v=6ZYu_lNvLUo)
+[![Alt text](https://i.postimg.cc/xTJkYHjN/zen.png)](https://www.youtube.com/watch?v=6ZYu_lNvLUo)
 
