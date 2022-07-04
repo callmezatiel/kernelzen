@@ -44,7 +44,11 @@ cd /boot
 ls -a
 ```
 ### 6.- Hacer una copia del archivo config
-###NOTA: El archivo config es diferente para todos pero se necesita seguir la sigueinte estructura de comando:
+
+### NOTA
+
+* El archivo config es diferente para todos pero se necesita seguir la sigueinte estructura de comando
+
 ```
 cp config-5.7.7-200.fc32.x86_64 /home/YOURNAME/kernel/zen-kernel/.config
 ```
