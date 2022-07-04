@@ -12,7 +12,7 @@
 ```
 sudo dnf install patch wget gcc ncurses-devel git git-core flex bison openssl-devel dwarves openssl elfutils-libelf-devel lz4 zstd
 ```
-Uyilizar "apt" "pacman" "dnf" segun sea el caso
+Utilizar "apt" "pacman" "dnf" segun sea el caso
 
 ### 2.- Instalar paquetes de desarrollo dependiendo del sistema⚠️
 
