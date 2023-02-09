@@ -49,9 +49,9 @@ ls -a
 cp config-5.17-300.fc36.x86_64 /home/YOURNAME/kernel/zen-kernel/.config
 ```
 ```
-cd /home/YOURNAME/kernel/zen-kernel/
+cd /home/$USER/kernel/zen-kernel/
 ```
-* YOURNAME es igual a tu nombre de usuario, se puede consultar con el comando "whoami" en cualquier terminal y sustituir la palabra
+* $USER (variable de entorno) es igual a tu nombre de usuario, se puede consultar con el comando "whoami" en cualquier terminal y sustituir la palabra
 ### 7.- Establecer la configuracion en base a la anterior 
 ```
 make oldconfig
