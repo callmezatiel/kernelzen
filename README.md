@@ -46,7 +46,7 @@ ls -a
 * El archivo config es diferente para todos pero se necesita seguir la sigueinte estructura de comando
 
 ```
-cp config-5.17-300.fc36.x86_64 /home/YOURNAME/kernel/zen-kernel/.config
+cp config-5.17-300.fc36.x86_64 /home/$USER/kernel/zen-kernel/.config
 ```
 ```
 cd /home/$USER/kernel/zen-kernel/
